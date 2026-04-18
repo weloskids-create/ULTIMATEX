@@ -1,0 +1,10 @@
+getgenv().spawnblock = true;
+while true do
+ wait();
+ if getgenv().spawnblock == true then game:GetService("ReplicatedStorage").SpawnGalaxyBlock:FireServer();
+ game:GetService("ReplicatedStorage").SpawnRainbowBlock:FireServer();
+ game:GetService("ReplicatedStorage").SpawnDiamondBlock:FireServer();
+    game:GetService("ReplicatedStorage").SpawnSuperBlock:FireServer();
+    game:GetService("ReplicatedStorage").SpawnLuckyBlock:FireServer();
+ end;
+end;
