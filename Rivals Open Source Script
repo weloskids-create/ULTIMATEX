@@ -395,11 +395,11 @@ RunService.RenderStepped:Connect(updateEsp)
 local UserInputService = game:GetService("UserInputService")
 
 local AIM_SETTINGS = {
-    Enabled         = true,
+    Enabled         = false,
     FOV             = 120,
     Smoothness      = 5,
     TargetPart      = "Head",
-    ShowFOV         = true,
+    ShowFOV         = false,
     FOVColor        = Color3.new(1, 1, 1),
     TeamCheck       = false,
     VisibilityCheck = false,
